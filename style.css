@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+a {
+    text-decoration: none;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+td {
+  padding: 8px;
+  vertical-align: top;
+}
+hr {
+  width: 80%;
+  margin: 20px auto;
+}
+caption {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+ul,
+ol {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+li {
+  padding: 8px 0;
+  /* border-bottom: 1px solid #ddd; */
+}
+.project {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+.project .heading{
+  text-align: center;
+}
+.project a {
+  text-decoration: none;
+  color: Orange;
+}
+
+.about {
+  margin: 20px 550px;
+  text-align: left;
+}
+.about a {
+  color: Blue;
+}
