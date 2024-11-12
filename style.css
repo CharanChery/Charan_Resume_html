@@ -3,12 +3,14 @@ body {
   text-align: center;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 table {
   margin: 0 auto;
   border-collapse: collapse;
 }
+
 td {
   padding: 8px;
   vertical-align: top;
@@ -31,19 +33,24 @@ li {
   padding: 8px 0;
   /* border-bottom: 1px solid #ddd; */
 }
+
+.details_section a {
+  color: rgb(102, 0, 255);
+
+}
 .project {
   width: 70%;
   margin: 0 auto;
   text-align: left;
 }
-.project .heading{
+.project .heading {
   text-align: center;
 }
 .project a {
   text-decoration: none;
-  color: Orange;
+  color: rgb(102, 0, 255);
 }
-.project a:hover{
+.project a:hover {
   text-decoration: underline;
 }
 
@@ -52,12 +59,12 @@ li {
   text-align: left;
 }
 .about a {
-  color: orange;
+  color: rgb(102, 0, 255);
 }
 
 .Coding_Profile a {
   text-decoration: none;
-  color: orange;
+  color: rgb(102, 0, 255);
 }
 
 .Coding_Profile a:hover {
@@ -65,10 +72,14 @@ li {
   transition-duration: 40s;
 }
 
-.links a{
-  color: orange;
+.links a {
+  color: rgb(102, 0, 255);
 }
 .links a:hover {
   text-decoration: underline;
   transition-duration: 40s;
+}
+
+.links > h1 {
+  text-align: center;
 }
